@@ -1,4 +1,6 @@
 """
+https://drive.google.com/file/d/1l92j4HnOp-1l3RQmga_LM8fjLUMPMYkW/view?usp=sharing
+
 1. Найти сумму и произведение цифр трехзначного числа, которое вводит пользователь.
 """
 
