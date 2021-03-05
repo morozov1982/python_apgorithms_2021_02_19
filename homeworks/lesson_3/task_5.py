@@ -18,7 +18,12 @@ max_negative = None
 
 for i in array:
     if 0 > i:
-        if not max_negative or i > max_negative:
+        # Коммент от преподавателя:
+        # Кстати, если в if попадает переменная с None,
+        # то "явное лучше неявного",
+        # поэтому if max_negative is None :-)
+        # Было: if not max_negative or i > max_negative:
+        if max_negative is None or i > max_negative:
             max_negative = i
 
 
